@@ -1,0 +1,9 @@
+ic_name	ratio	duration
+ic_1	0.5	2
+ic_2	0.25	4
+ic_3	0.2	5
+ic_4	0.5	2
+ic_5	0.25	4
+ic_6	0.5	2
+ic_7	0.2	5
+ic_8	0.25	4
