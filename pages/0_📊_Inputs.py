@@ -18,8 +18,7 @@ input_files = glob.glob(input_path)
 input_file_names = []
 
 for i in input_files:
-  if i:
-    input_file_names.append(i.split('inputs\\')[1] if i.split('inputs\\')[1] else "sad")
+  input_file_names.append(i.split('\\')[1])
     
 
 
