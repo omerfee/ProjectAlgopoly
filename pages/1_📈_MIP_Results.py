@@ -19,14 +19,14 @@ input_files = glob.glob(input_path)
 input_file_names = []
 
 for i in input_files:
-  input_file_names.append(i.split('inputs\\')[1])
+  input_file_names.append(i.split('\\')[1])
 
 output_path = 'outputs/*.txt'
 output_files = glob.glob(output_path)
 
 output_file_names = []
 for i in output_files:
-  output_file_names.append(i.split('outputs\\')[1])
+  output_file_names.append(i.split('\\')[1])
 
 epsilon_list = []
 for i in output_file_names:
