@@ -18,7 +18,9 @@ input_files = glob.glob(input_path)
 input_file_names = []
 
 for i in input_files:
-  input_file_names.append(i.split('inputs\\')[1])
+  if i:
+    input_file_names.append(i.split('inputs\\')[1] if i.split('inputs\\')[1] else "sad")
+    
 
 
 # Transforming txt data to data frame for inputs
