@@ -15,11 +15,7 @@ st.set_page_config(
 input_path = 'inputs/*.txt'
 input_files = glob.glob(input_path)
 
-input_file_names = []
-
-for i in input_files:
-  input_file_names.append(i.split('\\')[1])
-    
+input_file_names = ['arc-distance.txt', 'hub_coordinates.txt', 'ic-init.txt', 'hub-demand.txt', 'ic-prod-per-line.txt', 'ic-ramp.txt', 'ic-safety-factor.txt', 'ic_coordinates.txt']
 
 
 # Transforming txt data to data frame for inputs
