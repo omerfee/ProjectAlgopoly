@@ -11,13 +11,6 @@ st.set_page_config(
 )
 
 
-#accessing the names of txt files in the inputs and outputs folder.
-input_path = 'inputs/*.txt'
-input_files = glob.glob(input_path)
-
-input_file_names = ['arc-distance.txt', 'hub_coordinates.txt', 'ic-init.txt', 'hub-demand.txt', 'ic-prod-per-line.txt', 'ic-ramp.txt', 'ic-safety-factor.txt', 'ic_coordinates.txt']
-
-
 # Transforming txt data to data frame for inputs
 
 ic_safety_factor = pd.read_table('inputs/' + 'ic-safety-factor.txt', delim_whitespace=True, index_col = 'ic_name')

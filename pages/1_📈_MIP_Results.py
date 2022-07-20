@@ -5,6 +5,8 @@ import glob
 import streamlit as st
 import folium
 from streamlit_folium import st_folium
+import os
+
 
 st.set_page_config(
     page_title= 'MIP Results',
@@ -12,21 +14,9 @@ st.set_page_config(
 )
 
 
-#accessing the names of txt files in the inputs and outputs folder.
-input_path = 'inputs/*.txt'
-input_files = glob.glob(input_path)
+#accessing the names of txt files in outputs folder.
 
-input_file_names = []
-
-for i in input_files:
-  input_file_names.append(i.split('\\')[1])
-
-output_path = 'outputs/*.txt'
-output_files = glob.glob(output_path)
-
-output_file_names = []
-for i in output_files:
-  output_file_names.append(i.split('\\')[1])
+output_file_names = os.listdir('outputs/')
 
 epsilon_list = []
 for i in output_file_names:
