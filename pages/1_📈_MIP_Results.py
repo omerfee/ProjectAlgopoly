@@ -4,7 +4,7 @@ import pandas as pd
 import glob
 import streamlit as st
 import folium
-from streamlit_folium import st_folium
+from streamlit_folium import st_folium, folium_static
 import os
 
 
@@ -383,5 +383,5 @@ for j in range(1, IC_NUMBER + 1):
 
 
 
-st_folium(flow_map_fig, width = 725)
+folium_static(flow_map_fig, width = 725)
 
