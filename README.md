@@ -17,7 +17,7 @@ Note that, before the installation please activate your Python environment.
    ```sh
    pip install -r requirements.txt
    ```
-3. Running the project
+3. Run the project
    ```sh
    streamlit run Report.py
    ```
