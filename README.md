@@ -22,4 +22,4 @@ Note that, before the installation please activate your Python environment.
    streamlit run Report.py
    ```
 
-I implemented this project during my internship at [Algopoly](http://algopoly.com/) in June 2022.
+I did this project during my internship at [Algopoly](http://algopoly.com/) in June 2022.
