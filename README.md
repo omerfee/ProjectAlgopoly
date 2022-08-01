@@ -1,7 +1,7 @@
 # ProjectAlgopoly
  
 
- ### The main purpose of this Streamlit-based web application is to receive various input - output results and report these data to the user in a clean, readable and interactive way. You can access the project here[**link**](https://omerfee-projectalgopoly-report-gzw35a.streamlitapp.com).
+ ### The main purpose of this Streamlit-based web application is to receive various input - output results and report these data to the user in a clean, readable and interactive way. You can access the project [**here**](https://omerfee-projectalgopoly-report-gzw35a.streamlitapp.com).
 
 
  
